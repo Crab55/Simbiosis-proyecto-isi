@@ -268,6 +268,14 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
+| Nutricionista | Rol profesional acreditado, común para médicos y nutricionistas, que puede publicar y validar recetas | A3 s1.2, s1.3 y 3 |
+| Acreditación Profesional | Procedimiento por el que una persona demuestra su condición profesional para actuar como nutricionista | A3 s1.3 |
+| Receta aceptada | Receta adecuada al perfil, las alergias o las restricciones alimentarias de un paciente. La plataforma no modifica automáticamente sus ingredientes o cantidades | DVA s1.1 y 2.1 y A3 s3 |
+| Coordinador | Rol moderador de la plataforma, que revisa cuentas y publicaciones en busca de contenido inapropiado | DVA s3.1 |
+| Receta Validada | Receta revisada y aprobada por un profesional de la salud | DVA s1.2 y s3.1 |
+| Paciente | Persona registrada en la plataforma que padece EII | DVA s3.1 |
+
+
 
 ## 10. Modelos de análisis
 
