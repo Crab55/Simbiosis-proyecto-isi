@@ -280,6 +280,11 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-01 | NFR-Q (Disponibilidad) | La plataforma alcanzará una disponibilidad mínima del 99,5% en cada mes natural | G | - | Mediante comprobaciones externas cada cinco minutos | - |
+| NFR-02 | NFR-Q (Fiabilidad, Safety, Mantenibilidad) | La plataforma deberá ofrecer mecanismos de copia de seguridad diarias, y deberá restablecerse en un máximo de 4 horas desde el incidente | G | - | prueba de restauración una vez cada tres meses como mínimo | - |
+| NFR-03 | NFR-I (Interfaz de Software) | La autenticación se realizará utilizando OAuth 2.0 u OpenID Connect sobre HTTPS sin almacenar las contraseñas de Google| G | - | prueba de autenticación con cuenta de prueba más la revisión de la configuración de la integración | - |
+| NFR-04 | NFR-I (Interfaz de Usuario) | La plataforma deberá lanzarse en primera instancia con disponibilidad de idioma en Castellano y Gallego | G | - | - | - |
+| NFR-05 | NFR-R (Tecnología y entorno) | La plataforma se lanzará exclusivamente en un entorno de aplicación web | G | - | - | - |
+
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
